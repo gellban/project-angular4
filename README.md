@@ -3,10 +3,10 @@ The source code of the project web applications containing view and controller. 
 
 #git commands
 Quick setup — if you’ve done this kind of thing before
- Set up in Desktop	or	
+ Set up in Desktop	or
  HTTPS
  SSH
-	
+
 We recommend every repository include a README, LICENSE, and .gitignore.
 …or create a new repository on the command line
 
@@ -29,5 +29,3 @@ Import code
 
 using github desktop
 =======
-test
->>>>>>> 3d1848c4f5ec4c32e71789d66b80150a795b1923
