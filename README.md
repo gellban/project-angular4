@@ -24,6 +24,10 @@ git push -u origin master
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
 Import code
+<<<<<<< HEAD
 
 
 using github desktop
+=======
+test
+>>>>>>> 3d1848c4f5ec4c32e71789d66b80150a795b1923
