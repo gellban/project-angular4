@@ -1,30 +1,12 @@
+This is a simple example of how to apply Angular 4 or 5 and Node.js in MEAN application using RESTful or https requests for adding, updating, deleting, and fetch data from mongodb. The purpose of this article is to introduce the audience to Angular 4 or 5, and how to write http request inside angular to call Node.js RESTful API.
+for more details visit my website and see the following link and watch a video clip about it:
+http://codeoverflow.ebigdatai.com/codeoverflow/index.php/2017/11/12/a-simple-example-of-how-to-apply-angular-4-or-5-and-node-js-in-mean-application-using-restful-or-https-requests-for-adding-updating-deleting-and-fetch-data-from-mongodb/
+
+
+
 # project-angular4
 The source code of the project web applications containing view and controller. You need to use another project to run the code. The another project name is project-nodes
 
-#git commands
-Quick setup — if you’ve done this kind of thing before
- Set up in Desktop	or
- HTTPS
- SSH
-
-We recommend every repository include a README, LICENSE, and .gitignore.
-…or create a new repository on the command line
-
-echo "# project-angular4" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/...
-git push -u origin master
-…or push an existing repository from the command line
-
-git remote add origin https://github.com/...
-git push -u origin master
-…or import code from another repository
-You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
-
-Import code
-<<<<<<< HEAD
 
 
 
