@@ -1,0 +1,76 @@
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+    <title>Project Management App</title>
+</head>
+<h1>Projects</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Project Name</th>
+            <th>Project Code</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Owner</th>
+            <th>Description</th>
+            <th>Action</th>
+            <th>&nbsp;</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>
+            <input type="text" [(ngModel)]="project.name" name="xname">
+          </td>
+          <td>
+            <input type="text" [(ngModel)]="project.code" name="xcode">
+          </td>
+          <td>
+            <input type="date" [(ngModel)]="project.start_date" name="xstart_date">
+          </td>
+          <td>
+            <input type="date" [(ngModel)]="project.end_date" name="xend_date">
+          </td>
+          <td>
+            <input type="text" [(ngModel)]="project.owner" name="xowner">
+          </td>
+          <td>
+            <input type="text" [(ngModel)]="project.description" name="xdescription">
+          </td>
+          <td>
+              <button (click)="add()" class="btn btn-primary">Add</button>
+              <!--<button (click)="update()" class="btn btn-info">Update</button>
+              -->
+            </td>
+
+        </tr>
+      <tr *ngFor="let project of projects">
+        <td>
+            <input type="text" [(ngModel)]="project.name" name="xname">
+          </td>
+          <td>
+            <input type="text" [(ngModel)]="project.code" name="xcode">
+          </td>
+          <td>
+            <input type="date" [(ngModel)]="project.start_date" name="xstart_date">
+          </td>
+          <td>
+            <input type="date" [(ngModel)]="project.end_date" name="xend_date">
+          </td>
+          <td>
+            <input type="text" [(ngModel)]="project.owner" name="xowner">
+          </td>
+          <td>
+            <input type="text" [(ngModel)]="project.description" name="xdescription">
+          </td>
+
+        <td><button (click)="delete(project._id)" class="btn btn-danger">Delete</button></td>
+        <td><button (click)="update(project._id)" class="btn btn-warning">Update</button></td>
+      </tr>
+    </tbody>
+</table>
+              

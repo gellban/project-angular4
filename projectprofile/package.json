@@ -1,0 +1,35 @@
+{
+  "name": "projectprofile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gellban/project-angular4.git"
+  },
+  "keywords": [
+    "angular",
+    "4/5",
+    "node.js",
+    "mongodb",
+    "express",
+    "http",
+    "requist",
+    "GitHub"
+  ],
+  "author": "Hashim Abu-gellban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gellban/project-angular4/issues"
+  },
+  "homepage": "https://github.com/gellban/project-angular4#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "g": "^2.0.1",
+    "mongojs": "^2.4.1"
+  }
+}
