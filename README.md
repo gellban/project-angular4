@@ -21,7 +21,7 @@ ng g component components/about
 ng serve
 http://localhost:4200/
 
-#copy the following files from my project in GitHub which includes my changes:
+# copy the following files from my project in GitHub which includes my changes:
 app.module.ts
 app.component.css
 app.component.html
@@ -33,10 +33,10 @@ project.component.ts
 
 
 
-#open a new terminal and run mongodb. if you do not have mongodb you need to install it
+# open a new terminal and run mongodb. if you do not have mongodb you need to install it
 cd /Applications/mongodb/bin/
 ./mongod
-#open another terminal and run mongo db command line to create a new database and collection, as well as inserting 3 records of test data
+# open another terminal and run mongo db command line to create a new database and collection, as well as inserting 3 records of test data
 cd /Applications/mongodb/bin/
 ./mongo
 use projectdb
@@ -58,14 +58,14 @@ npm install g body-parser --save
 
 
 ********************************************************************************
-#build angular project and move the dist folder of build view and controllers to view folder in nodejs project profile
+# build angular project and move the dist folder of build view and controllers to view folder in nodejs project profile
 mkdir view
 cd ..
 cd projects
 ng build -prod
 mv dist/*.* to ../projectprofile/view
 ********************************************************************************
-#copy index.js from projectprofile of my GitHub which included the code of Node.js and express and mongojs to handle RESTful or http requests for adding fetching updating and deleting records from mongofb:
+# copy index.js from projectprofile of my GitHub which included the code of Node.js and express and mongojs to handle RESTful or http requests for adding fetching updating and deleting records from mongofb:
 index.js
 ********************************************************************************
 cd ../projectprofile
