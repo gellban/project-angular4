@@ -85,6 +85,9 @@ mv dist/*.* to ../projectprofile/view
 ======================
 #copy index.js from projectprofile of my GitHub which included the code of Node.js and express and mongojs to handle RESTful or http requests for adding fetching updating and deleting records from mongofb:
 index.js
+===================
+cd ../projectprofile
+node index.js
 ====================
 open github desktop to push (upload) the files to this hub
 fill summary data

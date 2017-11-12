@@ -1,5 +1,10 @@
-// MEAN Stack RESTful API Tutorial - Contact List App
-
+// MEAN Stack RESTful API Tutorial - Project Profile App
+/*
+* Program Name: index.js
+* Program Purpose: to handle RESTFul or HTTP requests
+* Author: Hashim Abu-gellban
+* Creation Date: 12-Nov-2017
+*/
 var express = require('express');
 var app = express();
 var mongojs = require('mongojs');
