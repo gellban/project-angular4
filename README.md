@@ -1,4 +1,3 @@
-<p>
 This is a simple example of how to apply Angular 4 or 5 and Node.js in MEAN application using RESTful or https requests for adding, updating, deleting, and fetch data from mongodb. The purpose of this article is to introduce the audience to Angular 4 or 5, and how to write http request inside angular to call Node.js RESTful API.
 for more details visit my website and see the following link and watch a video clip about it:
 http://codeoverflow.ebigdatai.com/codeoverflow/index.php/2017/11/12/a-simple-example-of-how-to-apply-angular-4-or-5-and-node-js-in-mean-application-using-restful-or-https-requests-for-adding-updating-deleting-and-fetch-data-from-mongodb/
@@ -12,7 +11,7 @@ The source code of the project web applications containing view and controller. 
 
 
 
-=============================================
+********************************************************************************
 Steps for creating new angular 4/5 project called projects
 ng new projects
 cd projects
@@ -47,7 +46,7 @@ db.projects.insert({id:1,n ame:"Test Name",code:"TN",start_date:"11/05/2017",end
 db.projects.insert({id:2, name:"Test Name2",code:"TN2",start_date:"11/05/2017",end_date:"06/01/2018",owner:"HR Department2",description:"This project is helpful for the HR department to evaluate the employees' satisfactions"})
 db.projects.insert({id:3, name:"Test Name3",code:"TN3",start_date:"11/05/2017",end_date:"06/01/2018",owner:"HR Department3",description:"This project is helpful for the HR department to evaluate the employees' satisfactions"})
 db.projects.find();
-==============================================
+********************************************************************************
 steps for creating a new Node.js project. if you do not have Node.js then you need to install it:
 cd ..
 mkdir projectprofile
@@ -58,22 +57,21 @@ npm install g mongojs --save
 npm install g body-parser --save
 
 
-===========
+********************************************************************************
 #build angular project and move the dist folder of build view and controllers to view folder in nodejs project profile
 mkdir view
 cd ..
 cd projects
 ng build -prod
 mv dist/*.* to ../projectprofile/view
-======================
+********************************************************************************
 #copy index.js from projectprofile of my GitHub which included the code of Node.js and express and mongojs to handle RESTful or http requests for adding fetching updating and deleting records from mongofb:
 index.js
-===================
+********************************************************************************
 cd ../projectprofile
 node index.js
-====================
+********************************************************************************
 open github desktop to push (upload) the files to this hub
 fill summary data
 press commit button
 repository>push
-</p>
